@@ -10,7 +10,7 @@
 body {
   background-color: var(--color-white-fontbgr);
   color: var(--primary-text-colo);
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 ul {
@@ -27,7 +27,6 @@ ul {
 
   color: var(--primary-text-color);
 
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-decoration: none;
 }
 .logo-firstwords {
@@ -35,8 +34,6 @@ ul {
 }
 
 .nav-links {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -45,8 +42,6 @@ ul {
 }
 
 .nav-links-stud {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -85,15 +80,9 @@ ul {
   line-height: 1.88;
   cursor: pointer;
 }
-.btn-hero:hover,
-.btn-hero:focus {
-  background-color: var(--color-white-fontbgr);
-  color: var(--button-wordfirst-color);
-}
 
 /* Second section */
 .advant {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -110,7 +99,6 @@ ul {
 
 /* Third section */
 .about-us {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -118,7 +106,6 @@ ul {
 }
 /* Fourth section */
 .team {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -137,8 +124,7 @@ ul {
   left: 593px;
   top: 174px;
   background-color: var(--button-portfolio-color);
-  font-family: "Roboto";
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -151,21 +137,23 @@ ul {
   color: var(--color-white-fontbgr);
 }
 .name-client {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--primary-text-colo);
+  text-decoration: none;
 }
 .text-client {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-other-color);
+  text-decoration: none;
 }
+
 /* Footer */
 .all-adr {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
