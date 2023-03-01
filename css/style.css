@@ -151,6 +151,13 @@ ul {
   color: var(--text-other-color);
   text-decoration: none;
 }
+.firma-client {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
 
 /* Footer */
 .all-adr {
@@ -167,4 +174,15 @@ ul {
 .secondword {
   color: var(--color-white-fontbgr);
   text-shadow: none;
+}
+.adr-foot {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.adr-foot:hover,
+.adr-foot:focus {
+  color: var(--button-wordfirst-color);
 }
